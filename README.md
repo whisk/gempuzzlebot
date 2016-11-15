@@ -7,7 +7,7 @@ GemPuzzleBot for Telegram API
 1. Prepare and start bot:
 ```
 bundle install --without development test
-ruby bot <TOKEN>
+ruby bot.rb <TOKEN>
 ```
 To exit hit CTRL-C and wait.
 
