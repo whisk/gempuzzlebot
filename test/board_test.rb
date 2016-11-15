@@ -3,7 +3,7 @@ require 'mocha/mini_test'
 
 require_relative '../lib/board.rb'
 
-class TestBoard < Minitest::Test
+class TestBoard < Minitest::Unit::TestCase
   def test_new_board
     b = Board.new(4)
     assert_equal [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, nil]], b.board

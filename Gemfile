@@ -5,4 +5,5 @@ gem 'telegram-bot-ruby', '~>0.6.0'
 group :test, :development do
   gem 'mocha'
   gem 'rubocop'
+  gem 'rake'
 end
